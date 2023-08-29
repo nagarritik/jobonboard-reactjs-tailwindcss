@@ -16,7 +16,7 @@ function HomeJobTile() {
         />
       </div>
       <div className=" flex flex-col gap-3">
-        <a href="#" className="font-medium">
+        <a href="/" className="font-medium">
           Software Engineer (Android), Libraries
         </a>
         <div className="flex gap-5">

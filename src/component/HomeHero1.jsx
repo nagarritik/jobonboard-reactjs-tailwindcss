@@ -15,7 +15,7 @@ function HomeHero1() {
         <div>
           <span>Popular searches: </span>
           <span>Designer, Developer, Web, IOS, PHP, Senior, Engineer</span>
-          <a href="#"></a>
+          <a href="/"></a>
         </div>
       </div>
       <div>
