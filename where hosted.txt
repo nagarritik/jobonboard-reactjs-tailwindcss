@@ -1,1 +1,3 @@
 https://jobonboard.onrender.com/
+https://jobonboard.netlify.app/
+https://jobonboard-theta.vercel.app/
