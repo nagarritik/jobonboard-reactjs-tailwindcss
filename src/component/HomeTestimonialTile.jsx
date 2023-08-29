@@ -1,15 +1,15 @@
 import React from 'react'
 
-function HomeTestimonialTile() {
+function HomeTestimonialTile({data}) {
   return (
     <div className='flex flex-col bg-white rounded-xl p-5 w-[550px] gap-3'>
-        <p className='text-blue-500 font-medium text-xl'>Good themes</p>
-        <span className='text-sm'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi quos rem nemo numquam recusandae quam ratione fugit, quasi eaque quas, quod officia?</span>
+        <p className='text-blue-500 font-medium text-xl'>{data.title}</p>
+        <span className='text-sm'>{data.summary}</span>
         <div className='flex pt-2'>
-            <img src="https://superio-nextjs.netlify.app/images/resource/testi-thumb-3.png" alt="" />
+            <img src={data.imgUrl} alt="" />
             <div className='flex flex-col px-5 justify-center'>
-                <p>Ritik Nagar</p>
-                <span className='text-sm'>Software Engineer / Web Developer</span>
+                <p>{data.name}</p>
+                <span className='text-sm'>{data.designation}</span>
             </div>
         </div>
     </div>
