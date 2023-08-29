@@ -9,6 +9,8 @@ import Footer from "./Footer";
 import HomeHero4 from "./HomeHero4";
 import HomeHero5 from "./HomeHero5";
 import HomeArticle from "./HomeArticle";
+import HomeAppComp from "./HomeAppComp";
+import HomeRecruiting from "./HomeRecruiting";
 
 function Home() {
   return (
@@ -24,6 +26,8 @@ function Home() {
       <HomeHero4/>
       <HomeHero5/>
       <HomeArticle/>
+      <HomeAppComp/>
+      <HomeRecruiting/>
       <Footer/>
     </>
   );

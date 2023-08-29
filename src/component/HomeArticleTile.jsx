@@ -2,7 +2,7 @@ import React from 'react'
 
 function HomeArticleTile() {
   return (
-    <div className='flex flex-col gap-3 w-[400px] bg-white p-3 rounded'>
+    <div className='flex flex-col gap-3 w-[400px] bg-white p-3 rounded shadow duration-200 hover:shadow-xl'>
         <div>
             <img className='h-[250px] rounded' src="https://superio-nextjs.netlify.app/images/resource/blog/1.jpg" alt="" />
         </div>
