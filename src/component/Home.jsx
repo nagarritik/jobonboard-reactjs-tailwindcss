@@ -6,6 +6,9 @@ import HomeHero3 from "./HomeHero3";
 import HomeTestimonial from "./HomeTestimonial";
 import HomeFeaturedImage from "./HomeFeaturedImage";
 import Footer from "./Footer";
+import HomeHero4 from "./HomeHero4";
+import HomeHero5 from "./HomeHero5";
+import HomeArticle from "./HomeArticle";
 
 function Home() {
   return (
@@ -18,6 +21,9 @@ function Home() {
       <HomeTestimonial/>
       <HomeFeaturedImage/>
       <hr />
+      <HomeHero4/>
+      <HomeHero5/>
+      <HomeArticle/>
       <Footer/>
     </>
   );
